@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sephnescence/marvel-snap-helper/issues"
   },
-  "homepage": "https://github.com/sephnescence/marvel-snap-helper#readme"
+  "homepage": "https://github.com/sephnescence/marvel-snap-helper#readme",
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
 }
