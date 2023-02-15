@@ -7,6 +7,7 @@
     "build": "vite build",
     "dev": "vite",
     "format": "prettier --write --no-error-on-unmatched-pattern \"src/**/*.{js,jsx}\" \"**/*.json\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx}\" \"**/*.json\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "lint:debug": "eslint \"src/**/*.{js,jsx}\" --quiet --debug",
     "preview": "vite preview",
