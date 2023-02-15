@@ -4,8 +4,13 @@
   "description": "Making a react app to help with my marvel snap games",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write --no-error-on-unmatched-pattern \"src/**/*.{js,jsx}\" \"**/*.json\""
+    "build": "vite build",
+    "dev": "vite",
+    "format": "prettier --write --no-error-on-unmatched-pattern \"src/**/*.{js,jsx}\" \"**/*.json\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "lint:debug": "eslint \"src/**/*.{js,jsx}\" --quiet --debug",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,11 +23,13 @@
   },
   "homepage": "https://github.com/sephnescence/marvel-snap-helper#readme",
   "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
     "eslint": "^8.34.0",
-    "prettier": "^2.8.4"
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.4",
+    "vite": "^4.1.1"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.6.0",
     "react": "^18.2.0"
   }
 }
