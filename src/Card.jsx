@@ -83,7 +83,8 @@ const Card = (props) => {
     <div key={`${cardName}-inner`}>
       <img
         key={`${cardName}-img`}
-        src={`${imageSource}`}
+        // src={`${imageSource}`}
+        src={`/images/snapfan/${cardName}.webp`}
         onError={({ currentTarget }) => {
           // Default to pre calculated images from Snap Fan
           currentTarget.onerror = null

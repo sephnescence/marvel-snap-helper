@@ -1,5 +1,6 @@
 import React from 'react'
-import Card from './Card'
+// import Card from './Card'
+import GeneratedCard from './GeneratedCard'
 
 const CardRow = (props) => {
   const { cards } = props
@@ -8,7 +9,8 @@ const CardRow = (props) => {
     <>
       {cards.map((card) => {
         const { cardName } = card
-        return <Card key={cardName} {...card} />
+        return <GeneratedCard key={cardName} {...card} />
+        // return <Card key={cardName} {...card} />
       })}
     </>
   )
