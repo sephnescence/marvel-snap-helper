@@ -4,7 +4,7 @@ import CardRow from './CardRow'
 const cards = [
   {
     cardName: 'SquirrelGirl',
-    location: 'deck',
+    location: 'hand',
   },
   {
     cardName: 'Iceman',
@@ -12,7 +12,7 @@ const cards = [
   },
   {
     cardName: 'Yondu',
-    location: 'deck',
+    location: 'hand',
   },
   {
     cardName: 'BuckyBarnes',
