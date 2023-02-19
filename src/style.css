@@ -32,7 +32,8 @@ div.generated-card
 
 div.generated-card
   > div.generated-card-inner
-  > div.generated-card-background-one {
+  > div.generated-card-background-one
+  > div.generated-card-background-two {
   width: 148px;
   height: 201px;
   background-repeat: no-repeat;

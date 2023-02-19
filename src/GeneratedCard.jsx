@@ -12,7 +12,7 @@ const GeneratedCard = (props) => {
           }}
         >
           <div
-            className="generated-card-background-one"
+            className="generated-card-background-two"
             style={{
               backgroundImage: `url("/images/generated/${cardName}/Background02.webp")`,
             }}
